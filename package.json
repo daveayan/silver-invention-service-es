@@ -1,5 +1,5 @@
 {
-  "name": "example-node-server",
+  "name": "silver-invention-service-es",
   "version": "1.0.0",
   "description": "silver invention service with babel, es7",
   "main": "server/index.js",
