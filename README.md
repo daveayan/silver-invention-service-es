@@ -1,4 +1,9 @@
-# silver-invention-service
+# silver-invention-service-es
+[![CircleCI](https://circleci.com/gh/daveayan/silver-invention-service-es.svg?style=svg)](https://circleci.com/gh/daveayan/silver-invention-service-es)
+[![Code Climate](https://codeclimate.com/github/daveayan/silver-invention-service-es/badges/gpa.svg)](https://codeclimate.com/github/daveayan/silver-invention-service-es)
+[![Test Coverage](https://codeclimate.com/github/daveayan/silver-invention-service-es/badges/coverage.svg)](https://codeclimate.com/github/daveayan/silver-invention-service-es/coverage)
+[![Issue Count](https://codeclimate.com/github/daveayan/silver-invention-service-es/badges/issue_count.svg)](https://codeclimate.com/github/daveayan/silver-invention-service-es)
+[![Dependency Status](https://gemnasium.com/badges/github.com/daveayan/silver-invention-service-es.svg)](https://gemnasium.com/github.com/daveayan/silver-invention-service-es)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
 ## Tech Stack
