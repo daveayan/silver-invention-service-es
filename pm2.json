@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "silver-invention-service-es",
+            "script": "target/application.js",
+            "watch": ["target"]
+        }
+    ]
+}
