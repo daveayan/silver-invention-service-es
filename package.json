@@ -9,8 +9,9 @@
     "serve": "node target/application.js",
     "stop": "kill -2 $(ps | grep '[i]stanbul cover server/application' | awk '{print $1}')",
     "test": "./node_modules/jasmine/bin/jasmine.js",
-    "cover-start": "istanbul cover target/application.js --handle-sigint",
-    "remap-cover": "./node_modules/.bin/remap-istanbul -i coverage/coverage.json -o coverage/coverage-remapped.json -o coverage/remapped-lcov-report -t html"
+    "cover-start": "istanbul cover target/application.js --handle-sigint & echo $!",
+    "cover-report": "istanbul report",
+    "cover-remap": "./node_modules/.bin/remap-istanbul -i coverage/coverage.json -o coverage/coverage-remapped.json -o coverage/remapped-lcov-report -t html"
   },
   "author": "Ayan Dave",
   "license": "MIT",
@@ -27,7 +28,8 @@
     "jasmine": "^2.5.3",
     "mocha": "^3.0.1",
     "nodemon": "^1.10.0",
-    "remap-istanbul": "^0.9.1"
+    "remap-istanbul": "^0.9.1",
+    "request": "^2.79.0"
   },
   "dependencies": {
     "express": "^4.14.1",
