@@ -30,7 +30,7 @@
   - $ npm run cover-start
   - $ npm test
   - $ npm stop
-  - $ npm run remap-cover-ts
+  - $ npm run cover-remap
 
 ## Docker (Optional)
 ### Build Instances

@@ -1,9 +1,11 @@
 import http from 'http';
 import express from 'express';
 import TeacherController from './controller/TeacherController';
+import Logger from './common/Logger';
 
 class AppServer {
   constructor() {
+    this.logger = new Logger();
   }
 
   bootstrap() {
@@ -18,13 +20,15 @@ class AppServer {
   }
 
   setupRoutes() {
+    this.logger.info('AppServer: Start setupRoutes');
     this.app.use('/teacher', new TeacherController());
+    this.logger.info('AppServer: End setupRoutes');
   }
 
   runServer() {
-      console.log('SERVER: Start Running Server');
-      this.app.server.listen(5001);
-      console.log('SERVER: Done Running Server');
+    this.logger.info('AppServer: Start runServer');
+    this.app.server.listen(5001);
+    this.logger.info('AppServer: End runServer');
   }
 }
 
