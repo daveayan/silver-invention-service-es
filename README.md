@@ -34,7 +34,7 @@
 
 ## Docker (Optional)
 ### Build Instances
-- Run gulp first
+- npm run clean && npm run build
 - docker build -t "silver-invention-service-es" .
 - docker build -t "silver-invention-service-es/neo4j" docker/neo4j/
 - docker build -t "silver-invention-service-es/elasticsearch" docker/elasticsearch/
